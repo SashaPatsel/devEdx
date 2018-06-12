@@ -1,27 +1,41 @@
 body {
   background: url("../images/background1.png") no-repeat fixed center ;
   background-size: cover;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav-logo {
   /* background-color: rgba(255,255,255,0.5) */
+  margin-left: 15px;
+}
+
+.nav-link {
+  margin-top: 8px;
+  color: white;
+  margin-left: 15px;
 }
 
 .dev-ed-nav {
-  border-bottom: solid black 1px;
+
   padding: 10px;
   margin-bottom: 15px;
 }
 
-.dev-ed-car {
-  height: 1px;
-}
-
 .to-about {
+  color: white;
   position: absolute;
   top: 650px;
   left: 50%;
-  border: solid black 2px;
-  border-radius: 20px;
-  padding: 5px;
+  border: solid white 2px;
+  border-radius: 30px;
+  padding: 12px 5px 5px 5px;
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+}
+
+.to-about:hover {
+  background-color: rgba(255,255,255,0.4);
+  transition: .5s;
 }
