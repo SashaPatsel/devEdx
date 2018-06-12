@@ -1,0 +1,27 @@
+body {
+  background: url("../images/background1.png") no-repeat fixed center ;
+  background-size: cover;
+}
+
+.nav-logo {
+  /* background-color: rgba(255,255,255,0.5) */
+}
+
+.dev-ed-nav {
+  border-bottom: solid black 1px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.dev-ed-car {
+  height: 1px;
+}
+
+.to-about {
+  position: absolute;
+  top: 650px;
+  left: 50%;
+  border: solid black 2px;
+  border-radius: 20px;
+  padding: 5px;
+}
