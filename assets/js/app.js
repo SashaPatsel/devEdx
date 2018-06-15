@@ -1,12 +1,12 @@
 $(document).ready(function () {
-//key = 4c766497d613573233d2c692a67393e
-  // var queryURL = "https://api.meetup.com/find/groups?zip=94103&sig=4c766497d613573233d2c692a67393e"
-  // $.ajax({
-  //   url: "https://api.meetup.com/find/groups?&photo-host=public&page=50&text=ionic&sig_id=2109318&radius=global&order=newest&sig=ad335a79ccce2b1bb65b27fe10ea6836305e5533",
-  //   method: "GET"
-  // }).then(function (data) {
-  //   console.log(data)
-  // })
+
+  var queryURL = "https://api.meetup.com/find/groups?zip=94103&page50=&sig_id=239945662&offset=1&sig=36248f17bb4230492d4164e179c8f79e3e2d1973"
+  $.ajax({
+    url: queryURL,
+    method: "GET"
+  }).then(function(res){
+    console.log(res)
+  })
 
 $(".meetup-modal").on("click", function() {
 
@@ -18,5 +18,8 @@ $(".meetup-modal2").on("click", function(){
   $(".meetup2").modal("show")  
 })
 
+$(".iframe-wrap").on("click", function(){
+  
+})
 
 });
